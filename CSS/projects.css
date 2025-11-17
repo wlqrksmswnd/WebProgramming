@@ -1,0 +1,29 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f5f3f6;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+.header-link {
+  font-size: larger;
+  font-weight: 500;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 10px;
+  box-sizing: border-box;
+}
