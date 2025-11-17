@@ -2,6 +2,7 @@
   padding: 0px;
   margin: 0px;
   background-color: #f5f3f6;
+  box-sizing: border-box;
 }
 
 a:link {
@@ -19,11 +20,46 @@ a:visited {
 }
 
 header {
-  width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 40px;
-  padding: 30px 10px;
   box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+  gap: 40px;
+}
+
+#header-logo {
+  width: 40px;
+}
+
+#header-logo:hover {
+  cursor: pointer;
+}
+
+.header-buttonContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.header-button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.header-button:hover {
+  cursor: pointer;
 }

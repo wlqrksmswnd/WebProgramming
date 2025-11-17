@@ -4,15 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../CSS/intro.css" />
+    <link rel="stylesheet" href="../CSS/index.css" />
   </head>
   <body>
     <header>
-      <a class="header-link" href="./index.html">홈</a>
-      <a class="header-link" href="./intro.html">소개</a>
-      <a class="header-link" href="./projects.html">프로젝트</a>
-      <a class="header-link" href="./records.html">게임 전적</a>
+      <div class="header-container">
+        <img
+          id="header-logo"
+          src="../assets/imgs/yeppi_logo.png"
+          onclick="window.location.assign('./index.html')"
+        />
+        <div class="header-nav">
+          <a class="header-link" href="./index.html">홈</a>
+          <a class="header-link" href="./intro.html">소개</a>
+          <a class="header-link" href="./projects.html">프로젝트</a>
+          <a class="header-link" href="./records.html">게임 전적</a>
+        </div>
+        <div class="header-buttonContainer">
+          <div
+            class="header-button"
+            onclick="window.location.assign('./login.html')"
+          >
+            로그인
+          </div>
+          <div
+            class="header-button"
+            onclick="window.location.assign('./signup.html')"
+          >
+            회원가입
+          </div>
+        </div>
+      </div>
     </header>
-    <div>이곳은 소개 페이지</div>
   </body>
 </html>
