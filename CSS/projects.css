@@ -1,8 +1,11 @@
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css");
+
 * {
   padding: 0px;
   margin: 0px;
   background-color: #f5f3f6;
   box-sizing: border-box;
+  font-family: "Wanted Sans Variable", sans-serif;
 }
 
 a:link {
@@ -41,7 +44,7 @@ header {
 }
 
 #header-logo {
-  width: 40px;
+  width: 50px;
 }
 
 #header-logo:hover {
@@ -58,8 +61,65 @@ header {
   color: white;
   padding: 10px 15px;
   border-radius: 10px;
+  font-weight: 500;
 }
 
 .header-button:hover {
   cursor: pointer;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 150px;
+}
+
+.project-intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#wow_it_works {
+  width: 240px;
+}
+
+.project-intro-text {
+  font-size: 30px;
+  font-weight: 550;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 30px; */
+  margin: 0px 100px;
+  /* width: fit-content; */
+  /* padding: 10px; */
+  width: 90%;
+}
+
+.projectCard-container {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+
+.projectCard {
+  width: 350px;
+  height: 250px;
+  background-color: white;
+  border-radius: 40px;
+  margin: 25px;
+  box-shadow: 0 0.8rem 1.4rem -0.5rem rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
 }

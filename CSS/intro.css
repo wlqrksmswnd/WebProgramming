@@ -1,8 +1,11 @@
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css");
+
 * {
   padding: 0px;
   margin: 0px;
   background-color: #f5f3f6;
   box-sizing: border-box;
+  font-family: "Wanted Sans Variable", sans-serif;
 }
 
 a:link {
@@ -41,7 +44,7 @@ header {
 }
 
 #header-logo {
-  width: 40px;
+  width: 50px;
 }
 
 #header-logo:hover {
@@ -58,8 +61,129 @@ header {
   color: white;
   padding: 10px 15px;
   border-radius: 10px;
+  font-weight: 500;
+  /* font-size: medium; */
+  /* font-size: px; */
 }
 
 .header-button:hover {
   cursor: pointer;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  align-items: center;
+}
+
+.intro-description-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#intro-hi {
+  width: 225px;
+}
+
+.intro-description-hogujosa {
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.intro-hogujosa-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+  /* background-color: white; */
+  border-radius: 50px;
+  /* margin: 0px 100px; */
+  gap: 50px;
+  /* width: 1300px; */
+  /* width: fit-content; */
+  /* gap: 30px; */
+}
+
+.intro-hogujosa {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 400px;
+  height: 330px;
+  padding: 30px 50px;
+  border-radius: 40px;
+  box-shadow: 0 0.8rem 1.4rem -0.5rem rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+  /* padding: 30px 80px; */
+}
+
+.intro-hogujosa:hover {
+  transform: translateY(-5px);
+}
+
+.intro-hogujosa-text {
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+#tapie-logo {
+  border-radius: 50%;
+}
+
+.intro-tech-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.intro-tech-title {
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+.stackcard-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+  gap: 20px;
+  min-height: 64.2px;
+  box-shadow: 0 0.8rem 1.4rem -0.5rem rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.stackcard-container:hover {
+  transform: translateY(-5px);
+}
+
+.stackcards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 900px;
+  flex-wrap: wrap;
+}
+
+.stackcard-img {
+  width: 40px;
+  background-color: white;
+}
+
+.stackcard-name {
+  background-color: white;
+  font-size: larger;
+  font-weight: 600;
 }
