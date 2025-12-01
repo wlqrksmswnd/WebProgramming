@@ -45,6 +45,7 @@ header {
 
 #header-logo {
   width: 50px;
+  margin: 0px 58.4px;
 }
 
 #header-logo:hover {
@@ -153,6 +154,11 @@ header {
 
 #tapie-logo {
   border-radius: 50%;
+}
+
+#steam {
+  /* width: 400px; */
+  /* height: 200px; */
 }
 
 .intro-tech-container {

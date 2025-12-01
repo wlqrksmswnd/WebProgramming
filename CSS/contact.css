@@ -45,6 +45,7 @@ header {
 
 #header-logo {
   width: 50px;
+  margin: 0px 58.4px;
 }
 
 #header-logo:hover {
@@ -98,8 +99,8 @@ header {
 }
 
 #walk-img {
-  width: 250px;
-  margin-bottom: 50px;
+  width: 200px;
+  margin-bottom: 100px;
 }
 
 .contact-intro-text {
