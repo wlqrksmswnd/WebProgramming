@@ -68,6 +68,21 @@ header {
   cursor: pointer;
 }
 
+.footer-container {
+  height: 150px;
+  background-color: #1e1e1e;
+  padding-left: 80px;
+  /* box-sizing: border-box; */
+  display: flex;
+  align-items: center;
+}
+
+.footer-copyright {
+  font-size: larger;
+  background-color: #1e1e1e;
+  color: white;
+}
+
 #profile {
   width: 300px;
 }
@@ -79,6 +94,7 @@ header {
   text-align: center;
   gap: 15px;
   margin-top: 40px;
+  min-height: 100vh;
 }
 
 .home-intro-hi {

@@ -67,3 +67,81 @@ header {
 .header-button:hover {
   cursor: pointer;
 }
+
+.footer-container {
+  height: 150px;
+  background-color: #1e1e1e;
+  padding-left: 80px;
+  /* box-sizing: border-box; */
+  display: flex;
+  align-items: center;
+}
+
+.footer-copyright {
+  font-size: larger;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  gap: 50px;
+}
+
+.contact-intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#walk-img {
+  width: 250px;
+  margin-bottom: 50px;
+}
+
+.contact-intro-text {
+  font-size: 40px;
+  font-weight: 550;
+}
+
+.person-icon {
+  font-size: 150px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+  gap: 100px;
+}
+
+.contactCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-text {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.contact {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#insta-profile {
+  width: 150px;
+  border-radius: 50%;
+  margin: 12.5px 0px;
+}
+
+#profile {
+  width: 150px;
+  margin: 15px 0px;
+}

@@ -70,11 +70,27 @@ header {
   cursor: pointer;
 }
 
+.footer-container {
+  height: 150px;
+  background-color: #1e1e1e;
+  padding-left: 80px;
+  /* box-sizing: border-box; */
+  display: flex;
+  align-items: center;
+}
+
+.footer-copyright {
+  font-size: larger;
+  background-color: #1e1e1e;
+  color: white;
+}
+
 .intro-container {
   display: flex;
   flex-direction: column;
   gap: 150px;
   align-items: center;
+  min-height: 100vh;
 }
 
 .intro-description-container {
@@ -148,7 +164,7 @@ header {
 
 .intro-tech-title {
   font-size: xx-large;
-  font-weight: 500;
+  font-weight: 650;
 }
 
 .stackcard-container {
