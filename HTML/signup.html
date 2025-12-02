@@ -4,8 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="../CSS/signup.css" />
   </head>
   <body>
-    회원가입!
+    <div class="container">
+      <img
+        id="header-logo"
+        src="../assets/imgs/profile-imgs/yeppi_logo.png"
+        onclick="window.location.assign('./index.html')"
+      />
+      <div class="login-container">
+        <h1>회원가입</h1>
+        <div class="input-container">
+          <input id="id" placeholder="사용할 아이디를 입력해주세요" />
+          <input
+            id="password"
+            type="password"
+            placeholder="사용할 비밀번호를 입력해주세요"
+          />
+        </div>
+        <button id="signup-btn">회원가입</button>
+        <div class="text-container">
+          <div class="if">계정이 준비되어있다면</div>
+          <a class="login" href="../HTML/login.html">로그인</a>
+        </div>
+      </div>
+    </div>
   </body>
+  <script src="../JS/signup.js"></script>
 </html>

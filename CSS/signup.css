@@ -1,0 +1,114 @@
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f5f3f6;
+  box-sizing: border-box;
+  font-family: "Wanted Sans Variable", sans-serif;
+}
+
+#header-logo {
+  position: fixed;
+  top: 30px;
+  left: 239px;
+  width: 50px;
+  height: 50px;
+}
+
+#header-logo:hover {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 550px;
+  background-color: white;
+  /* gap: 50px; */
+  border-radius: 30px;
+  border: 1px solid #d9d9d9;
+  /* padding-top: 100px; */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: white;
+  margin: 40px 0px;
+}
+
+input {
+  border: 2px solid black;
+  padding: 15px 15px;
+  width: 270px;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#signup-btn {
+  width: 280px;
+  height: 50px;
+  background-color: #1e1e1e;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  font-size: large;
+  /* padding: 20px 0px; */
+  font-weight: 550;
+}
+
+#signup-btn:hover {
+  cursor: pointer;
+}
+
+h1 {
+  background-color: white;
+}
+
+.text-container {
+  display: flex;
+  gap: 5px;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.if {
+  font-size: 18px;
+  font-weight: 500;
+  background-color: white;
+}
+
+.login {
+  font-size: 18px;
+  font-weight: 800;
+  background-color: white;
+}
+
+.login:link {
+  color: black;
+  text-decoration: none;
+}
+
+.login:visited {
+  color: black;
+}
+
+.login:hover {
+  text-decoration: underline;
+}
